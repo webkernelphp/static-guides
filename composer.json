@@ -1,0 +1,26 @@
+{
+    "$schema": "https://getcomposer.org/schema.json",
+    "name": "webkernel/static-guides",
+    "description": "The Webkernel documentation and training-guides.",
+    "version": "0.1.0",
+    "type": "library",
+    "license": "EPL-2.0",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "Webkernel\\TGuides\\": "src/"
+        }
+    },
+    "extra": {
+        "webkernel": {
+            "split_repo": "git@github.com:webkernelphp/static-guides.git",
+            "production": true,
+            "prefix": "static"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
