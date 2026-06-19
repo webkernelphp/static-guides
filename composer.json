@@ -3,10 +3,11 @@
     "name": "webkernel/static-guides",
     "description": "The Webkernel documentation and training-guides.",
     "version": "0.1.0",
-    "type": "library",
+    "type": "webkernel-assets",
     "license": "EPL-2.0",
     "require": {
-        "php": ">=8.4"
+        "php": ">=8.4",
+        "webkernel/standard-lifecycle": ">=0.1.0"
     },
     "autoload": {
         "files": [],
