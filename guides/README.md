@@ -1,4 +1,6 @@
-Webkernel is the sovereign module surface for PHP web applications — broad enough that one developer can build anything, principled enough that any agent can extend it.
+Webkernel is an open application engine designed to operate self-contained modules. It combines a ready-to-use backoffice, a unified data layer, and an instant browser setup into a single environment where features plug in like apps.
+
+A real independant module surface for PHP web applications — broad enough that one developer can build anything, principled enough that any agent can extend it.
 
 # Webkernel, because building a web app is still too hard.
 
