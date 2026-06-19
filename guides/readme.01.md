@@ -10,8 +10,7 @@ We partner with organizations to build sovereign, durable systems — enabling t
 
 **We make advanced technology accessible to everyone.**
 
-Technology is the most powerful lever of our time.
-Everyone should have access to it — to solve problems, realize ideas, create wealth, and contribute to the progress of humanity.
+Technology is the most powerful lever of our time. Everyone should have access to it — to solve problems, realize ideas, create wealth, and contribute to the progress of humanity.
 
 We build it faster, stronger, and within everyone's reach.
 

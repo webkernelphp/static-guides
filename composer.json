@@ -16,7 +16,7 @@
     },
     "extra": {
         "webkernel": {
-            "split_repo": "git@github.com:webkernelphp/static-guides.git",
+            "package_repo": "git@github.com:webkernelphp/static-guides.git",
             "production": true,
             "prefix": "static"
         }
