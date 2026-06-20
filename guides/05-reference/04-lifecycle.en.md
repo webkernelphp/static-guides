@@ -1,4 +1,4 @@
-# Webkernel Standard Lifecycle — Package Types
+# 04 - Webkernel Standard Lifecycle — Package Types
 
 This package defines the Composer package types recognized by the Webkernel
 installer (`SLCPackageType`), and the logic that resolves where each package

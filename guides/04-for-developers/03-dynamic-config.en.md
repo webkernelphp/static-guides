@@ -1,4 +1,4 @@
-# Dynamic Configuration (Auth, Database, Mail)
+# 03 - Dynamic Configuration (Auth, Database, Mail)
 
 ## Overview
 
@@ -69,7 +69,7 @@ $this->app['events']->dispatch(
 Always use the schema builder. Never use raw SQL or driver-specific column types.
 
 | Avoid                         | Use instead         |
-|-------------------------------|---------------------|
+| ----------------------------- | ------------------- |
 | `DB::statement('CREATE ...')` | `Schema::create()`  |
 | `$table->jsonb()`             | `$table->json()`    |
 | `$table->tinyInteger(1)`      | `$table->boolean()` |

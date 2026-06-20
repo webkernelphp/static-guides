@@ -1,4 +1,4 @@
-# Versioning policy
+# 06 - Versioning policy
 
 All `webkernel/*` packages (except `runtime`, which is a separate composer
 plugin with its own lifecycle) share **one version number**, released

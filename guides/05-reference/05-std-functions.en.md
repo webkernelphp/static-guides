@@ -1,4 +1,4 @@
-# std-functions
+# 05 - std-functions
 
 See [`../std-functions/README.md`](../std-functions/README.md) for usage.
 

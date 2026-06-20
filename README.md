@@ -4,13 +4,17 @@ This directory documents the internal package architecture of the Webkernel plat
 
 **The main human-readable documentation lives in `guides/`.**
 
-See:
+See the numbered documentation (start here):
 
-- [guides/README.en.md](guides/README.en.md)
-- [guides/vision/vision-intentions.en.md](guides/vision/vision-intentions.en.md)
-- [guides/for-developers/](guides/for-developers/)
-- [guides/for-enterprises/](guides/for-enterprises/)
-- [guides/reference/](guides/reference/)
+- [guides/00-index.en.md](guides/00-index.en.md)
+
+Then follow the order:
+
+- `01-introduction/`
+- `02-vision/`
+- `03-for-enterprises/`
+- `04-for-developers/` (modules + package taxonomy)
+- `05-reference/` (follow the numbers inside)
 
 ## Package Types (the real taxonomy)
 

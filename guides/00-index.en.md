@@ -2,7 +2,12 @@
 
 **Follow the numbers. You will never get lost.**
 
-This documentation is organized with explicit numeric prefixes so the reading order is always obvious.
+This documentation uses explicit numeric prefixes (`00-`, `01-`, `02-` ...) at every level.
+
+- Top level sections: `01-`, `02-`, ...
+- Inside sections: `01-`, `02-` for individual pages
+
+This guarantees order for humans, VitePress, other SSGs, and AI agents.
 
 ## Recommended Reading Order
 
@@ -10,17 +15,19 @@ This documentation is organized with explicit numeric prefixes so the reading or
    Start here. What Webkernel actually is.
 
 2. **[02 - Vision & Intentions](./02-vision/01-vision-intentions.en.md)**  
-   The deeper reasons, goals, and reality behind the project (including its relationship with Numerimondes).
+   The deeper reasons, goals, and reality behind the project.
 
 3. **[03 - For Enterprises & Institutions](./03-for-enterprises/01-overview.en.md)**  
    Product-oriented view for companies, governments, and organizations.
 
 4. **[04 - For Developers](./04-for-developers/01-how-to-build-on-webkernel.en.md)**  
+   (then 02- and 03- inside the folder)  
    How to actually build on Webkernel.  
-   **Key fact**: Developers create **modules**, not full applications from scratch.
+   **Key fact**: Developers create **modules** (see package types), not full applications from scratch.
 
 5. **[05 - Reference](./05-reference/01-access-control.en.md)**  
-   Detailed technical documentation (internals, access control, architecture, etc.). Start with Access Control or browse the numbered files.
+   (then follow 02-, 03- ...)  
+   Detailed technical documentation.
 
 ---
 
@@ -35,4 +42,4 @@ This documentation is organized with explicit numeric prefixes so the reading or
 
 Webkernel is the product of Numerimondes.
 
-This documentation is **en devenir** (work in progress) and will evolve with the platform.
+This documentation is **_en devenir_** (work in progress) and will evolve with the platform.
