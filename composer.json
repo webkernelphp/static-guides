@@ -11,9 +11,7 @@
     },
     "autoload": {
         "files": [],
-        "psr-4": {
-            "Webkernel\\TGuides\\": "src/"
-        }
+        "psr-4": {}
     },
     "extra": {
         "webkernel": {
@@ -22,6 +20,6 @@
             "prefix": "static"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
