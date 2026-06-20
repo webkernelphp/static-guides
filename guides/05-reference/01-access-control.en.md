@@ -1,6 +1,15 @@
-# webkernel/component-access-control
+# Access Control
 
-> Sovereign access control for Webkernel. Privilege hierarchy, business scoping, dynamic RBAC, and module permission discovery — wired into the platform without a single generated policy file.
+> Sovereign access control for Webkernel. Privilege hierarchy, business scoping, dynamic RBAC.
+
+**Note:** This is the current design document. Implementation lives in `webkernel/component-access-control` and `webkernel/component-business`.
+
+> **Note (2026-06):** This document describes the target design. Implementation has been restructured into:
+>
+> - `webkernel/component-business`
+> - `webkernel/component-access-control`
+>
+> All models use the dynamic `webkernel_primary` connection (see [04.03 - Dynamic Config](../04-for-developers/03-dynamic-config.en.md)).
 
 ---
 

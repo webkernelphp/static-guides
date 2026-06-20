@@ -1,21 +1,29 @@
 # Webkernel — Packages Documentation
 
-This directory documents the internal package architecture of the
-Webkernel platform monorepo.
+This directory documents the internal package architecture of the Webkernel platform monorepo.
 
-## Index
+**The main human-readable documentation lives in `guides/`.**
 
-- [Architecture](architecture.md) — how packages relate to each other
-- [Versioning](versioning.md) — why every `webkernel/*` package shares one version
-- [std-functions](std-functions.md) — standalone helper functions
-- [std-svg-collection](std-svg-collection.md) — standalone icon collection
+See:
 
-## Quick map
+- [guides/README.en.md](guides/README.en.md)
+- [guides/vision/vision-intentions.en.md](guides/vision/vision-intentions.en.md)
+- [guides/for-developers/](guides/for-developers/)
+- [guides/for-enterprises/](guides/for-enterprises/)
+- [guides/reference/](guides/reference/)
 
-| Package                        | Standalone? | Depends on                  |
-| ------------------------------ | ----------- | --------------------------- |
-| `webkernel/std-functions`      | Yes         | —                           |
-| `webkernel/std-svg-collection` | Yes         | `std-functions`             |
-| `webkernel/framework`          | No          | Laravel, Filament, std-\*   |
-| `webkernel/power-boards`       | No          | `framework`                 |
-| `webkernel/runtime`            | —           | composer plugin, merges all |
+## Package Types (the real taxonomy)
+
+Webkernel uses a strict classification (see `SLCPackageType`):
+
+- `webkernel-component` — foundational pieces
+- `webkernel-business-module` + `*-feature`
+- `webkernel-platform-module` + `*-feature`
+
+Developers mostly create modules of the last four types.
+
+## Legacy / Internal notes
+
+Some technical reference material has been moved into `guides/reference/`.
+
+This top-level file is intentionally short. The real story is in `guides/`.
