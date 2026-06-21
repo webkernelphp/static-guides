@@ -91,7 +91,7 @@ component-access-control
 
 ```
 component-access-control
-    ├── webkernel/component-plugin      (Filament plugin traits)
+    ├── webkernel/component-modules-essentials      (Filament plugin traits)
     ├── webkernel/standard-lifecycle    (installer contract)
     ├── spatie/laravel-permission       (RBAC storage)
     └── filament/filament               (UI + auth)
