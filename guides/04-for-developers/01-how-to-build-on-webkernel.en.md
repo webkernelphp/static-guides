@@ -43,9 +43,11 @@ In practice, 95% of what external developers build falls into:
 
 ## Where to start
 
-- [Package Types](./package-types.en.md)
-- Module Development Guide (coming from technical content)
-- Dynamic Configuration (database, auth, mail injection)
+- [02 - Package Types](./02-package-types.en.md)
+- [03 - Dynamic Config](./03-dynamic-config.en.md)
+- [04 - Filament & Dependency Injection](./04-filament-and-dependency-injection.en.md)
+- [07 - Filament Runtime Authorization](../05-reference/07-filament-runtime-authorization.en.md)
+- [06 - Common Errors](../06-common-errors/00-index.en.md)
 
 ## The spirit
 

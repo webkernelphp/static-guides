@@ -11,6 +11,8 @@
 >
 > All models use the dynamic `webkernel_primary` connection (see [04.03 - Dynamic Config](../04-for-developers/03-dynamic-config.en.md)).
 
+> **Implemented today (2026-06):** Filament runtime enforcement (`webkernel_auth()`, Livewire hook, panel middleware, deny-all mode) is documented in **[07 - Filament Runtime Authorization](./07-filament-runtime-authorization.en.md)**. DI patterns and extension strategies are in **[04 - Filament & Dependency Injection](../04-for-developers/04-filament-and-dependency-injection.en.md)**.
+
 ---
 
 ## Table of Contents

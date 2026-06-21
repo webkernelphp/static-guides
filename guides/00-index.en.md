@@ -21,13 +21,16 @@ This guarantees order for humans, VitePress, other SSGs, and AI agents.
    Product-oriented view for companies, governments, and organizations.
 
 4. **[04 - For Developers](./04-for-developers/01-how-to-build-on-webkernel.en.md)**  
-   (then 02- and 03- inside the folder)  
+   (then 02-, 03-, 04- inside the folder)  
    How to actually build on Webkernel.  
    **Key fact**: Developers create **modules** (see package types), not full applications from scratch.
 
 5. **[05 - Reference](./05-reference/01-access-control.en.md)**  
-   (then follow 02-, 03- ...)  
+   (then follow 02-, 03- … 07-)  
    Detailed technical documentation.
+
+6. **[06 - Common Errors](./06-common-errors/00-index.en.md)**  
+   Operational failures: bootstrap manifests, misleading `view` errors, access-control wiring.
 
 ---
 

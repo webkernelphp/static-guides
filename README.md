@@ -7,6 +7,7 @@ This directory documents the internal package architecture of the Webkernel plat
 See the numbered documentation (start here):
 
 - [guides/00-index.en.md](guides/00-index.en.md)
+- [guides/06-common-errors/00-index.en.md](guides/06-common-errors/00-index.en.md) — bootstrap failures, `view` errors, access-control wiring
 
 Then follow the order:
 
